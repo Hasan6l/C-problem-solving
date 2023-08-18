@@ -6,7 +6,7 @@ int main()
     printf("Enter value of three numbers one by one:\n");
     scanf("%d %d %d",&x,&y,&z);
 
-    if(x>y && x>y){
+    if(x>y && x>z){
     printf("Maximum value =%d",x);
     }
     else if(y>x && y>z){
